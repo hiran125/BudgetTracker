@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f0c0c;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e2bd03;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(246, 113, 3, 2);
+}
+
+h1 {
+  text-align: center;
+  color: #006400; 
+  box-shadow: 0 0 18px rgba(37, 0, 241, 10);
+  border-radius: 80px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  flex: 1;
+  padding: 10px;
+  border:1px solid #090000;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #006400;
+  color: #ffffff;
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+  border:1px solid #090000;
+}
+
+button:hover {
+  background-color: #e215ac;
+}
+
+.transaction-list {
+  margin-top: 20px;
+  border-top: 2px solid #111010;
+  border-bottom: 2px solid #050000;
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+
+.income {
+  color: #006400; /* Green text for incomes */
+}
+
+.expense {
+  color: #ff0000; /* Red text for expenses */
+}
+
+.balance {
+  margin-top: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: #0000ff; /* Blue text for total balance */
+}
+
